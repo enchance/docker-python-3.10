@@ -1,4 +1,7 @@
-Docker Python 3.10
+Docker Python 3.11
 ===================
 
-Python 3.10 with Poetry 1.6.1.
+Version
+------------
+- Python: 3.11.5
+- Poetry: 1.6.1.

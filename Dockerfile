@@ -8,5 +8,8 @@ RUN curl -sSL https://install.python-poetry.org | python3 - \
 # Create .venv in the project folder when you run poetry shell
 RUN poetry config virtualenvs.in-project true
 
+WORKDIR /root
+COPY ./bashrc .
+
 WORKDIR /app
 #RUN poetry init
