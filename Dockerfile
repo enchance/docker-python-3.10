@@ -11,5 +11,4 @@ RUN poetry config virtualenvs.in-project true
 WORKDIR /root
 COPY ./bashrc .
 
-WORKDIR /app
 #RUN poetry init
