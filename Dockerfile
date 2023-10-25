@@ -1,4 +1,4 @@
-FROM python:3.11-bookworm
+FROM python:3.11.6-bookworm
 RUN apt update && apt upgrade -y
 RUN set -x \
     && apt install curl iputils-ping -y
